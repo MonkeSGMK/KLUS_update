@@ -1,0 +1,180 @@
+header {
+    background-color: white;
+    color: #442060;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 1px 3px #996BBB;
+}
+
+
+
+.logo {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+.header-text {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.header-text h1 {
+    font-size: 30px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-links a {
+    color: #442060;
+    text-decoration: underline;
+    margin: 0 15px;
+}
+
+.top-box {
+    box-shadow: 2px 1px 3px #996BBB;
+    margin: 50px 25% 50px 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    border-radius: 0;
+    padding: 10px;
+    box-shadow: 2px 1px 3px #996BBB;
+    margin-bottom: 30px;
+    border: 0;
+}
+
+.card-text {
+    color: black;
+}
+
+.orange-text {
+    color: orange;
+}
+
+.search-container {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+
+/* Style for the search input */
+.search-container input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 3px solid #442060;
+    /* Dark Purple color Jo niet grijs */
+    outline: none;
+    background: none;
+    font-size: 16px;
+    color: #44205F;
+}
+
+.search-container img {
+    width: 20px;
+    height: 20px;
+    margin: 5px 5px 0 5px;
+}
+
+.Filter {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    color: #442060;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.sort {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    color: #442060;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.print {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    color: #442060;
+    margin-left: 20px;
+    margin-right: 50px;
+    white-space: nowrap; /* so no wrap? */
+}
+
+.dropbutton {
+    background-color: white;
+    color: #442060;
+    padding: 0px 15px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 2px 1px 3px #996BBB;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.dropbutton img {
+    margin-left: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 230px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {
+    display: block;
+}
+
+.hidden-card {
+    visibility: hidden;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.card-color-1 {
+    background-color: #ffd1d1;
+    /* Red */
+}
+
+.card-color-2 {
+    background-color: #fff7d1;
+    /* orange */
+}
+
+.card-color-3 {
+    background-color: #e3ffd1;
+    /* green */
+}
+
+.card-color-0 {
+    background-color: white;
+    /* white */
+}
