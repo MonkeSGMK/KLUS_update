@@ -314,5 +314,5 @@ include 'time.php';
 
     </script>
 </body>
-
-</html>
+<!-- hoi -->
+</html> 
